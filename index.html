@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">CALCULATOR</h1>
+    <div class="outerdiv">
+    <form action="">
+        <input type="text" id="display" readonly>
+    </form>
+    <div class="btns">
+        <button class="btn" id="AC" onclick="cleardisplay()">AC</button>
+        <button class="btn" id="doublezero" onclick="appendinput('00')">00</button>
+        <button class="btn" id="modulus" onclick="appendinput('%')">%</button>
+        <button class="btn" id="divide" onclick="appendinput('/')">/</button>
+        <button class="btn" id="7" onclick="appendinput('7')">7</button>
+        <button class="btn" id="8" onclick="appendinput('8')">8</button>
+        <button class="btn" id="9" onclick="appendinput('9')">9</button>
+        <button class="btn" id="multiply" onclick="appendinput('*')">*</button>
+        <button class="btn" id="4" onclick="appendinput('4')">4</button>
+        <button class="btn" id="5" onclick="appendinput('5')">5</button>
+        <button class="btn" id="6" onclick="appendinput('6')">6</button>
+        <button class="btn" id="subtract" onclick="appendinput('-')">-</button>
+        <button class="btn" id="1" onclick="appendinput('1')">1</button>
+        <button class="btn" id="2" onclick="appendinput('2')">2</button>
+        <button class="btn" id="3" onclick="appendinput('3')">3</button>
+        <button class="btn" id="addition" onclick="appendinput('+')">+</button>
+        <button class="btn" id="0" onclick="appendinput('0')">0</button>
+        <button class="btn" id="dot" onclick="appendinput('.')">.</button>
+        <button class="btn" id="del" onclick="del()">del</button>
+        <button class="btn" id="enter" onclick="calculateresult()">=</button>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- 1 2 3 4 5 6 7 8 9 0 / * - + = AC del . () %-->

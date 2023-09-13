@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 18rem;
+}
+
+.btn{
+    height: 4.5rem;
+    width: 4.5rem;
+    font-size: 2rem;
+    background-color: rgb(66, 75, 87);
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.5;
+}
+
+#display{
+    height:4rem;
+    width: 18rem;
+    border: 3px solid black;
+    font-size: 3rem;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.outerdiv{
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
